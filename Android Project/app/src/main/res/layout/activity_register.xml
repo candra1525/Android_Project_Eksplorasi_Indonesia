@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:fontFamily="@font/quicksand_bold"
+                android:textSize="35sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70dp"
+                android:layout_marginHorizontal="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="20dp"
+                />
+
+
+            <EditText
+                android:id="@+id/et_nama_lengkap_register"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroud_list"
+                android:padding="14dp"
+                android:hint="Example"
+                android:drawableStart="@drawable/fullname_icon"
+                android:drawablePadding="10dp"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="20dp"
+                />
+
+
+            <EditText
+                android:id="@+id/et_email_register"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroud_list"
+                android:padding="14dp"
+                android:hint="example@example.com"
+                android:drawableStart="@drawable/email_icon"
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor Telepon"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="20dp"
+                />
+
+
+            <EditText
+                android:id="@+id/et_nomor_telepon_register"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroud_list"
+                android:padding="14dp"
+                android:hint="+62 XXXXXXXXXXX"
+                android:drawableStart="@drawable/phone_icon"
+                android:drawablePadding="10dp"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="20dp"
+                />
+
+
+            <EditText
+                android:id="@+id/et_password_register"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroud_list"
+                android:padding="14dp"
+                android:hint="••••••••"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/lock_24"
+                android:drawablePadding="10dp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Konfirmasi Password"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="20dp"
+                />
+
+
+            <EditText
+                android:id="@+id/et_konfirmasi_password_register"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroud_list"
+                android:padding="14dp"
+                android:hint="••••••••"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/lock_24"
+                android:drawablePadding="10dp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Foto"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="20dp"
+                />
+
+            <ImageView
+                android:id="@+id/iv_foto_register"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/temp_foto"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:letterSpacing="0.003"
+                android:fontFamily="@font/quicksand_bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jika anda telah mempunyai akun, anda bisa login untuk masuk ke Aplikasi Eksplorasi Indonesia"
+                android:textAlignment="center"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/quicksand_medium"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_redirect_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_semibold"
+                android:text="Login account"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="50dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

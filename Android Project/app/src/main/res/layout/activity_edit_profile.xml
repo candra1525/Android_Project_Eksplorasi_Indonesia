@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".EditProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_margin="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_back_to_my_profile"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/back_icon"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:text="Edit Profile"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/iv_back_to_my_profile"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_delete_profile"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/trash_24"
+                    android:layout_alignParentRight="true"
+                    />
+            </RelativeLayout>
+            
+           <ImageView
+               android:id="@+id/iv_edit_foto_profile"
+               android:layout_marginTop="20dp"
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:layout_gravity="center_horizontal"
+               />
+
+            <Button
+                android:id="@+id/btn_ubah_foto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubah Foto"
+                android:textAllCaps="false"
+                android:letterSpacing="0.003"
+                android:fontFamily="@font/quicksand_bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Nama Lengkap"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                />
+
+            <EditText
+                android:id="@+id/et_edit_nama_lengkap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Lengkap"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:inputType="text"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/backgroud_list"
+                android:padding="14dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Email"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                />
+
+            <EditText
+                android:id="@+id/et_edit_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="example@example.com"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/backgroud_list"
+                android:padding="14dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nomor Telepon"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                />
+
+            <EditText
+                android:id="@+id/et_edit_nomor_telepon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nomor Telepon"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:inputType="text"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/backgroud_list"
+                android:padding="14dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Password"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                />
+
+            <EditText
+                android:id="@+id/et_edit_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/backgroud_list"
+                android:padding="14dp"
+                />
+
+            <Button
+                android:id="@+id/btn_simpan_perubahan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simpan Perubahan"
+                android:letterSpacing="0.003"
+                android:textAllCaps="false"
+                android:fontFamily="@font/quicksand_bold"
+                android:backgroundTint="#388E3C"
+                android:layout_marginTop="30dp"
+android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="30dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

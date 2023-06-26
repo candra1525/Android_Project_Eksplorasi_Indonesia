@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="@font/quicksand_bold"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+
+
+    <EditText
+        android:id="@+id/et_email_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroud_list"
+        android:padding="14dp"
+        android:hint="example@example.com"
+        android:drawableStart="@drawable/email_icon"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+
+
+    <EditText
+        android:id="@+id/et_password_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroud_list"
+        android:padding="14dp"
+        android:hint="••••••••"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/lock_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:letterSpacing="0.003"
+        android:fontFamily="@font/quicksand_bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jika anda belum mempunyai akun, anda bisa melakukan register terlebih dahulu"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_redirect_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_semibold"
+        android:text="Register account"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+
+</LinearLayout>

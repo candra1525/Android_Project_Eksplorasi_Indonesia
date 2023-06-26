@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Eksplorasi Indonesia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Hallo, Perkenalkan nama saya Candra.
+        \n\n\t\t\tSaya merupakan salah satu mahasiswa dari Universitas Multi Data Palembang Fakultas Ilmu Komputer dan Rekayasa Jurusan Informatika Semester 4.
+        \n\n\t\t\tEksplorasi Indonesia adalah salah satu aplikasi yang di buat dengan tujuan untuk mengenalkan Indonesia kepada masyarakat luas, baik di Indonesia maupun dari luar negeri agar dapat mengetahui bertapa indahnya Indonesia.
+        \n\n\t\t\tAplikasi Eksplorasi Indonesia dibangun untuk perangkat Mobile dengan menggunakan bahasa pemrograman java dan menggunakan IDE Android Studio. Untuk sementara fitur-fitur yang ditawarkan masih terbatas dan mungkin seiring berjalannya waktu aplikasi ini nantinya akan lebih dikembangkan lagi agar lebih bermanfaat.</string>
+
+    <string-array name="role_user">
+        <item>admin</item>
+        <item>user</item>
+    </string-array>
+
+    <string name="tentang_indonesia">\t\t\t\tIndonesia atau dikenal dengan nama resmi Republik Indonesia atau lebih lengkapnya Negara Kesatuan Republik Indonesia, adalah negara kepulauan di Asia Tenggara yang dilintasi garis khatulistiwa dan berada di antara daratan benua Asia dan Oseania, sehingga dikenal sebagai negara lintas benua, serta antara Samudra Pasifik dan Samudra Hindia.
+        \n\t\t\t\tIndonesia merupakan negara terluas ke-14 sekaligus negara kepulauan terbesar di dunia dengan luas wilayah sebesar 1.904.569 km², serta negara dengan pulau terbanyak ke-6 di dunia, dengan jumlah 17.504 pulau. Nama alternatif yang dipakai untuk kepulauan Indonesia disebut Nusantara. Selain itu, Indonesia juga menjadi negara berpenduduk terbanyak ke-4 di dunia dengan penduduk mencapai 277.749.853 jiwa pada tahun 2022, serta negara dengan penduduk beragama Islam terbanyak di dunia, dengan penganut lebih dari 238.875.159 jiwa atau sekitar 86,9%. Indonesia adalah negara multiras, multietnis, dan multikultural di dunia, seperti halnya Amerika Serikat.
+        \n\t\t\t\tIndonesia berbatasan dengan sejumlah negara di Asia Tenggara dan Oseania. Indonesia berbatasan di wilayah darat dengan Malaysia di Pulau Kalimantan dan Sebatik, dengan Papua Nugini di Pulau Papua, dan dengan Timor Leste di Pulau Timor. Negara yang hanya berbatasan laut dengan Indonesia adalah Singapura, Filipina, Australia, Thailand, Vietnam, Palau, dan wilayah persatuan Kepulauan Andaman dan Nikobar, India.
+        \n\t\t\t\tIndonesia adalah negara kesatuan dengan bentuk pemerintahan republik berdasarkan konstitusi yang sah, yaitu Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (UUD 1945). Berdasarkan UUD 1945 pula, Dewan Perwakilan Rakyat (DPR), Dewan Perwakilan Daerah (DPD), dan Presiden dicalonkan lalu dipilih dalam pemilihan umum.
+        \n\t\t\t\tIbu kota Indonesia saat ini adalah Jakarta. Pada tanggal 18 Januari 2022, pemerintah Indonesia menetapkan Ibu Kota Nusantara yang berada di Pulau Kalimantan, yang menempati wilayah Kabupaten Penajam Paser Utara, untuk menggantikan Jakarta sebagai ibu kota yang baru.
+        \n\t\t\t\tIndonesia memiliki unsur-unsur Identitas Nasional diantaranya yaitu :
+    </string>
+
+    <string name="bendera_indonesia">\t\t\t\tBendera Negara Indonesia (disingkat bendera negara) atau biasa juga disebut Sang Merah Putih, Sang Saka Merah Putih, Merah Putih, atau kadang Sang Dwiwarna (dua warna) adalah bendera negara Indonesia. Bendera negara berbentuk empat persegi panjang dengan ukuran lebar 2/3 (dua-pertiga) dari panjang dengan bagian atas berwarna merah dan bagian bawah berwarna putih yang kedua bagiannya berukuran sama. Bendera ini merangkum nilai-nilai kepahlawanan, patriotisme, dan nasionalisme dari rakyat Indonesia.
+        \n\t\t\t\tBendera Indonesia memiliki makna filosofis. Merah berarti keberanian, sedangkan putih berarti kesucian. Selain itu, warna merah pun dikatakan melambangkan tubuh manusia, sedangkan putih melambangkan jiwa manusia. Kedua warna tersebut dianggap saling melengkapi dan menyempurnakan Indonesia.</string>
+
+    <string name="bahasa_indonesia">\t\t\t\tPasal 36 UUD 1945 berbunyi ‘Bahasa Negara ialah Bahasa Indonesia’. Bahasa Indonesia menjadi bahasa nasional atau bahasa persatuan. Bahasa Indonesia berasal dari bahasa Melayu Riau.
+        \n\t\t\t\tSeiring waktu bahasa ini selalu berkembang dan mengalami perubahan. Bahasa Indonesia diawali sejak Sumpah Pemuda, 28 Oktober 1928. Penggunaan bahasa Indonesia merupakan usulan dari Muhammad Yamin.
+        \n\t\t\t\tPada saat itu ia mengatakan bahwa hanya ada dua bahasa yang bisa menjadi bahasa persatuan, antara bahasa Jawa dan bahasa Melayu, namun dalam kedepannya, bahasa Melayu lah yang akan menjadi bahasa persatuan.
+        \n\t\t\t\tBahasa Indonesia merupakan bahasa persatuan, karena bangsa Indonesia memiliki berbagai jenis bahasa.
+    </string>
+
+    <string name="lambang_negara_indonesia">\t\t\t\tPasal 36A UUD 1945 berbunyi “Lambang Negara ialah Garuda Pancasila dengan semboyan Bhineka Tunggal Ika”. Garuda pancasila dan semboyan Bhineka Tunggal Ika dipilih menjadi lambang negara dan semboyan negara.
+        \n\t\t\t\tBurung Garuda yang dikenal dari mitologi kuno merupakan kendaraan Wishnu. Burung Garuda ini menggambarkan bahwa Indonesia merupakan bangsa yang besar dan kuat. Burung Garuda sebagai simbol ikatan persatuan dan menyatunya rakyat Indonesia yang heterogen.
+        \n\t\t\t\tLambang Garuda Pancasila dirancang oleh panitia Lencana Negara yang diketuai Sultan Hamid II. Lambang ini akhirnya disempurnakan oleh Soekarno dan diresmikan pertama kali pada tanggal 11 Februari 1950.
+        \n\t\t\t\tDi dalam burung Garuda Pancasila terdapat simbol-simbol untuk setiap sila. Sila pertama bergambar bintang emas, sila kedua dilambangkan dengan tali rantai berwarna emas, sila ketiga dilambangkan dengan pohon beringin, sila keempat dilambangkan dengan kepala banteng, dan untuk sila kelima dilambangkan dengan padi dan kapas.
+        \n\t\t\t\tMelalui banyak hal mengenai lahirnya Pancasila seperti ditandai oleh pidato yang dilakukan oleh Presiden pertama Indonesia, Soekarno dalam sidang Dokuritsu Junbi Cosakai (Badan Penyelidik Usaha Persiapan Kemerdekaan). Pidatonya pertama kali mengemukakan konsep awal Pancasila yang menjadi dasar negara Indonesia pada 1 Juni 1945 sehingga di tetapkan Hari lahir Pancasila jatuh pada tanggal 1 Juni.
+    </string>
+    
+    <string name="semboyan_bangsa_indonesia">\t\t\t\tSedangkan semboyan Bhinneka Tunggal Ika memiliki arti ‘berbeda-beda tapi tetap satu jua’. Semboyan negara ini merupakan kutipan dari Kitab Sutasoma dari Mpu Tantular. Semboyan ini dipilih untuk menggambarkan persatuan negara Indonesia yang memiliki keberagaman suku, ras, agama, budaya, dan bahasa.
+    </string>
+    
+    <string name="lagu_kebangsaan_indonesia">\t\t\t\tPasal 36B UUD 1945 berbunyi ‘Lagu kebangsaan ialah Indonesia Raya’. Lagu Indonesia Raya dipilih menjadi lagu kebangsaan Indonesia. Lagu ini diciptakan oleh Wage Rudolf Soepratman, dan diperkenalkan pertama kali pada sumpah pemuda, 28 Oktober 1928 di Batavia.
+        \n\t\t\t\tLirik lagu Indonesia Raya pertama kali dipublikasi di surat kabar Sin Po. Lagu kebangsaan Indonesia pertama kali dikumandangkan di depan Kongres Pemuda Kedua, namun setelah itu pemerintah kolonial melarang penyebutan lagu Indonesia Raya. Meski begitu, pemuda Indonesia tidak gentar dan mereka tetap menyanyikan lagu Indonesia Raya.
+        \n\t\t\t\tPasal 36C UUD 1945 merupakan pasal ketentuan lebih lanjut tentang unsur-unsur identitas nasional. Pasal 36C berbunyi:<b><i> “Ketentuan lebih lanjut mengenai bendera, bahasa dan lambang negara serta lagu kebangsaan diatur dengan undang-undang.”</i></b>
+    </string>
+
+    <string name="dasar_falsafah_negara">\t\t\t\tPancasila menjadi dasar falsafah negara. Terdiri dari lima dasar yang menjadi ideologi negara bangsa Indonesia. Pancasila adalah identitas nasional Indonesia yang memiliki kedudukan sebagai ideologi dan dasar negara.
+    </string>
+    
+    <string name="konstitusi_negara_indonesia">\t\t\t\tUUD 1945 menjadi konstitusi atau hukum dasar negara. UUD 1945 merupakan hukum yang tertulis dan memiliki kedudukan tertinggi dalam peraturan perundangan. UUD 1945 dijadikan sebagai pedoman dalam kehidupan dan bernegara. UUD 1945 sudah digunakan sejak Indonesia merdeka. Sehari setelah proklamasi , atau pada tanggal 18 Agustus 1945, Panitia Persiapan Kemerdekaan Indonesia (PPKI) mengesahkan naskah yang kini menjadi Undang-Undang Dasar Negara Republik Indonesia.
+        \n\t\t\t\tPada buku Undang Undang Dasar Negara Ri Tahun 1945 Dengan Kabinet Indonesia Maju 2019-2024 berisi secara lengkap UUD 1945, Amandemen I-IV serta Penjelasannya (Lengkap dengan Diamandemen), Proses dan Perubahan Amandemen, Susunan Kabinet Indonesia Maju 2019-2024,  Profil Kementerian Kabinet Indonesia Maju, Lembaga Setingkat Menteri, dan Profil lengkap Presiden dan Wakil Presiden dari masa ke masa.
+    </string>
+
+    <string name="bentuk_negara_indonesia">\t\t\t\tBentuk negara Indonesia adalah negara kesatuan yang berkedaulatan rakyat. Negara indonesia berbentuk kesatuan dan memiliki bentuk pemerintahan republik.
+    </string>
+    
+    <string name="sistem_negara_indonesia">\t\t\t\tSistem pemerintahan yang digunakan di Indonesia adalah sistem demokrasi, dengan sistem yang menjunjung kedaulatan rakyat. Sampai saat ini sudah disepakati bahwa Indonesia tidak akan melakukan perubahan identitas sebagai negara kesatuan.
+        \n\t\t\t\tMakna atau arti Pancasila sebagai pandangan hidup bangsa Indonesia adalah kristalisasi pengalaman-pengalaman hidup dalam perjalanan sejarah bangsa Indonesia yang telah membentuk sikap, watak, perilaku, tata nilai, pandangan filsafat, moral, etika yang telah melahirkannya. Dengan Pancasila sebagai dasar Negara itu pula para pendiri Negara dengan genius menyiapkan sistem ketatanegaraan NKRI sebagai “sistem sendiri”.
+        \n\t\t\t\tUntuk pendalaman lengkap mengenai sistem demokrasi di Indonesia, telah dibahas dalam buku Sistem Demokrasi Pancasila (Edisi Kedua) karya Tb. Massa Djafar, Dkk. Buku ini dibagi menjadi tiga bagian, yaitu Ontologi Pancasila, Epistemologi demokrasi Pancasila, dan Aksiologinya.
+    </string>
+</resources>

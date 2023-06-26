@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="10dp"
+    android:padding="2dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:elevation="6dp"
+        android:padding="8dp"
+        android:background="@drawable/backgroud_list"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_foto_usr"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/foto"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+            <TextView
+                android:id="@+id/tv_id_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Id Kuliner"
+                android:fontFamily="@font/quicksand_bold"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/tv_nama_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama User"
+                android:fontFamily="@font/quicksand_bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="1dp"
+                android:background="#A19B9B"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email User"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_bold"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_email_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="example@example.com"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Role"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_bold"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Role ???"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor Telepon"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_bold"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_phone_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+6272 237283292"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:justificationMode="inter_word"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <Button
+                    android:id="@+id/btn_ubah_role"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ubah Role"
+                    android:textSize="13sp"
+                    android:textAllCaps="false"
+                    android:letterSpacing="0.003"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_alignParentRight="true"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

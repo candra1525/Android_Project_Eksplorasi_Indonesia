@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailTentangIndonesiaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_back_to_home"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/back_icon"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_nama_wisata_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INDONESIA"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:fontFamily="@font/quicksand_bold"
+            android:textSize="18sp"
+            android:padding="10dp"
+            />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:id="@+id/iv_peta"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar Peta Indonesia"
+                    android:textSize="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/tentang_indonesia"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="20dp"
+                    android:lineHeight="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+<!--                1. Bendera Indonesia-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="1. Bendera Indonesia"
+                    android:layout_marginHorizontal="20dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_bendera_indonesia"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar Bendera Indonesia"
+                    android:textSize="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/bendera_indonesia"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="20dp"
+                    android:lineHeight="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+<!--                2. Bahasa Indonesia-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="2. Bahasa Indonesia"
+                    android:layout_marginHorizontal="20dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_bahasa_indonesia"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar Bahasa Indonesia"
+                    android:textSize="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/bahasa_indonesia"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="20dp"
+                    android:lineHeight="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+<!--                3. Lambang Negara Indonesia-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="3. Lambang Negara Indonesia"
+                    android:layout_marginHorizontal="20dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_lambang_negara_indonesia"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar Lambang Negara Indonesia"
+                    android:textSize="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/bendera_indonesia"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="20dp"
+                    android:lineHeight="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+                <!--                4. Semboyan Bangsa Indonesia-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="4. Semboyan Negara Indonesia"
+                    android:layout_marginHorizontal="20dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_semboyan_negara_indonesia"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar Semboyan Negara Indonesia"
+                    android:textSize="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/semboyan_bangsa_indonesia"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="20dp"
+                    android:lineHeight="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+                <!--                5. Lagu Kebangsaan Indonesia-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="5. Lagu Kebangsaan Negara Indonesia"
+                    android:layout_marginHorizontal="20dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_lagu_kebangsaan_indonesia"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar Lagu Kebangsaan Negara Indonesia"
+                    android:textSize="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/lagu_kebangsaan_indonesia"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="20dp"
+                    android:lineHeight="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+                <!--                6. dasar_falsafah_negara-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="6. Dasar Falsafah Negara Indonesia"
+                    android:layout_marginHorizontal="20dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_dasar_falsafah_negara"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar Dasar Falsafah Negara Indonesia"
+                    android:textSize="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/dasar_falsafah_negara"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="20dp"
+                    android:lineHeight="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+
+                <!--                7. Konstitusi Negara Indonesia-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="7. Konstitusi Negara Indonesia"
+                    android:layout_marginHorizontal="20dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_konstitusi_negara_indonesia"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar Konstitusi Negara Indonesia"
+                    android:textSize="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/konstitusi_negara_indonesia"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="20dp"
+                    android:lineHeight="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+
+                <!--                8. Bentuk Negara Indonesia-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="8. Bentuk Negara Indonesia"
+                    android:layout_marginHorizontal="20dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_bentuk_negara_indonesia"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar Bentuk Negara Indonesia"
+                    android:textSize="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/bentuk_negara_indonesia"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="20dp"
+                    android:lineHeight="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <!--                9. Sistem Negara Indonesia-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="9. Sistem Negara Indonesia"
+                    android:layout_marginHorizontal="20dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_sistem_negara_indonesia"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar Sistem Negara Indonesia"
+                    android:textSize="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="@string/sistem_negara_indonesia"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="20dp"
+                    android:lineHeight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

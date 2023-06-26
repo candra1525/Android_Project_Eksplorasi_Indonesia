@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:text="Profile"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_edit_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/settings_icon"
+                    android:layout_centerVertical="true"
+                    />
+
+
+            </RelativeLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_foto_user"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nama Lengkap"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_nama_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Candra"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/biru"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Email"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_email_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="candra_2007@mhs.mdp.ac.id"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/biru"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Role"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_role_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="admin"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/biru"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Nomor Telepon"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_nomor_telepon_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="+628123456789"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/biru"
+                />
+
+            <ImageView
+                android:id="@+id/iv_qr"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside" />
+
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.003"
+                android:textAllCaps="false"
+                android:text="Log Out"
+                android:fontFamily="@font/quicksand_bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#E80606"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_id_user"
+                android:text="id123"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

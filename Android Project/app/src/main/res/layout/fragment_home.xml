@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eksplorasi Indonesia"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:textColor="#4C2C1F"
+                android:fontFamily="@font/quicksand_bold"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:background="@drawable/backgroud_list"
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginBottom="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="5dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Halo, "
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/quicksand_semibold"
+                            android:textSize="14sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_nama_user_home"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Candra "
+                            android:textColor="@color/biru"
+                            android:fontFamily="@font/quicksand_bold"
+                            android:textSize="14sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" 👋🏻"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/quicksand_bold"
+                            android:textSize="14sp"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Selamat datang di Eksplorasi Indonesia"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/quicksand_semibold"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_to_about"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/about"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu Utama"
+                android:fontFamily="@font/quicksand_bold"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                >
+                <LinearLayout
+                    android:id="@+id/ll_pindah_fragment_wisata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/wisata_menu"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wisata"
+                        android:textSize="10sp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/quicksand_semibold"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_pindah_fragment_kuliner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/kuliner_menu"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kuliner"
+                        android:textSize="10sp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/quicksand_semibold"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tentang Indonesia"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="13sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/backgroud_list"
+                >
+                
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/indonesia"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tentang_indonesia"
+                    android:justificationMode="inter_word"
+                    android:paddingHorizontal="20dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"/>
+
+                <Button
+                    android:id="@+id/btn_lihat_detail_tentang_indonesia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Detail"
+                    android:textAllCaps="false"
+                    android:letterSpacing="0.003"
+                    android:fontFamily="@font/quicksand_semibold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
